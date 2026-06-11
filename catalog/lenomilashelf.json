@@ -10,11 +10,11 @@
   "versionCode": 40,
   "minSdk": 26,
   "targetSdk": 36,
-  "sizeBytes": 12543160,
-  "sha256": "0e6016742a8dc9442e9b554807c4459fbb0af031482387abf0e20c940c25c917",
+  "sizeBytes": 12542976,
+  "sha256": "abda1e5c1493da7e32a2187ea674c1c6b2c36e6bb451a406ccb4260c72d485de",
   "signingCertSha256": "e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd",
   "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.10/LenomilaShelf-v0.3.10.apk",
   "releaseId": "rel_lenomilashelf_40",
   "releaseNotes": "Adds TorrentAtlas to the signed catalog and Android package visibility queries so the store can list the app and recognize it after install.",
-  "publishedAt": "2026-06-11T21:05:16Z"
+  "publishedAt": "2026-06-11T21:12:49Z"
 }
