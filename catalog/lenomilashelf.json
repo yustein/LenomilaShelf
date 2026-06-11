@@ -6,15 +6,15 @@
   "publisherName": "Lenomila",
   "category": "Catalog",
   "channel": "stable",
-  "versionName": "0.3.4",
-  "versionCode": 34,
+  "versionName": "0.3.5",
+  "versionCode": 35,
   "minSdk": 26,
   "targetSdk": 36,
-  "sizeBytes": 12540900,
-  "sha256": "ed4a402bcd38186df526b7bbcfa6b779ac0d573c20e66ce9927fbb33f3893f3f",
+  "sizeBytes": 12541088,
+  "sha256": "5d4ea1ec42ad9317ba08216f8245fc18255cc599786034a81d32f41d2802b842",
   "signingCertSha256": "e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd",
-  "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.4/LenomilaShelf-v0.3.4.apk",
-  "releaseId": "rel_lenomilashelf_34",
-  "releaseNotes": "Restores the verified APK handoff to the earlier ACTION_VIEW + APK MIME FileProvider flow, resolves Android package-installer targets directly, grants the verified APK URI with ClipData, and launches the installer from the UI thread. Keeps GitHub APK download, SHA-256/size verification, native GitHub discovery, installed-app Open buttons, and no install-package permission.",
-  "publishedAt": "2026-06-11T12:34:36Z"
+  "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.5/LenomilaShelf-v0.3.5.apk",
+  "releaseId": "rel_lenomilashelf_35",
+  "releaseNotes": "Restores the NovaStore v0.1.4-style installer capability for app installs and updates by adding REQUEST_INSTALL_PACKAGES while keeping the modern release-signed, non-debuggable store identity. Keeps the ACTION_VIEW + APK MIME + FileProvider + explicit installer target + ClipData handoff, SHA-256/size verification, no boot or notification permission, no broad package query, and no install-session API. Moves signed catalog refresh to raw.githubusercontent.com to avoid GitHub Contents API 403 failures.",
+  "publishedAt": "2026-06-11T13:04:30Z"
 }
