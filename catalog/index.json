@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T11:09:31Z",
+  "generatedAt": "2026-06-11T11:34:54Z",
   "apps": [
     {
       "schemaVersion": 1,
@@ -10,17 +10,17 @@
       "publisherName": "Lenomila",
       "category": "Catalog",
       "channel": "stable",
-      "versionName": "0.3.2",
-      "versionCode": 32,
+      "versionName": "0.3.3",
+      "versionCode": 33,
       "minSdk": 26,
       "targetSdk": 36,
-      "sizeBytes": 12528501,
-      "sha256": "bb448f7cdf43851557ef49c8f05bec5cb1fcc9bed1255b24106cf296a59a47f4",
+      "sizeBytes": 12539886,
+      "sha256": "9e473aae7682e656dabb8433b596d22582ce1a413168255079475f66d3b69d3c",
       "signingCertSha256": "e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd",
-      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.2/LenomilaShelf-v0.3.2.apk",
-      "releaseId": "rel_lenomilashelf_32",
-      "releaseNotes": "Adds native GitHub catalog and release discovery for new-app checks while keeping verified APK download, Android handoff without app-install permission, installed-app Open buttons, and 8-hour update checks.",
-      "publishedAt": "2026-06-11T11:09:31Z"
+      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.3/LenomilaShelf-v0.3.3.apk",
+      "releaseId": "rel_lenomilashelf_33",
+      "releaseNotes": "Sends verified downloaded APKs directly to Android package installer instead of a generic file/app chooser. Keeps GitHub APK download, SHA-256/size verification, native GitHub discovery, installed-app Open buttons, and no install-package permission.",
+      "publishedAt": "2026-06-11T11:34:54Z"
     },
     {
       "schemaVersion": 1,
