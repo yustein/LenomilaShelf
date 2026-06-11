@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T20:36:40Z",
+  "generatedAt": "2026-06-11T21:06:22Z",
   "apps": [
     {
       "schemaVersion": 1,
@@ -10,17 +10,17 @@
       "publisherName": "Lenomila",
       "category": "Catalog",
       "channel": "stable",
-      "versionName": "0.3.9",
-      "versionCode": 39,
+      "versionName": "0.3.10",
+      "versionCode": 40,
       "minSdk": 26,
       "targetSdk": 36,
-      "sizeBytes": 12542154,
-      "sha256": "1de46319338a36fe53f0061b1f201d39c6e0c63f713e4ed61447607dbcae6c36",
+      "sizeBytes": 12543160,
+      "sha256": "0e6016742a8dc9442e9b554807c4459fbb0af031482387abf0e20c940c25c917",
       "signingCertSha256": "e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd",
-      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.9/LenomilaShelf-v0.3.9.apk",
-      "releaseId": "rel_lenomilashelf_39",
-      "releaseNotes": "Installed-state detection now includes Android package visibility for World Cup 2026 and Visit Video Logger, so Android 11+ can report those apps as installed/current instead of hiding them from PackageManager. The release build now refuses catalog packages missing from <queries>.",
-      "publishedAt": "2026-06-11T18:52:53Z"
+      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.10/LenomilaShelf-v0.3.10.apk",
+      "releaseId": "rel_lenomilashelf_40",
+      "releaseNotes": "Adds TorrentAtlas to the signed catalog and Android package visibility queries so the store can list the app and recognize it after install.",
+      "publishedAt": "2026-06-11T21:05:16Z"
     },
     {
       "schemaVersion": 1,
@@ -421,6 +421,26 @@
       "releaseId": "rel_visitvideologger_12",
       "releaseNotes": "Extends automatic recording segments from 1 minute to 3 minutes to reduce boundary hitches, and moves MediaStore/MediaRecorder segment startup off the UI thread onto the recorder worker. Keeps the v0.1.10 fixed-time 30 fps pacing, hardware-canvas fallback, overlay cache, and preview-matching recording geometry.",
       "publishedAt": "2026-06-11T18:33:20Z"
+    },
+    {
+      "schemaVersion": 1,
+      "appRole": "managed",
+      "packageName": "com.lenomila.torrentatlas",
+      "name": "TorrentAtlas",
+      "publisherName": "Lenomila",
+      "category": "Tools",
+      "channel": "stable",
+      "versionName": "0.1.0",
+      "versionCode": 1,
+      "minSdk": 26,
+      "targetSdk": 36,
+      "sizeBytes": 17912772,
+      "sha256": "9d487ece5dd70d158c3cc09f9b014c07a8362646652f364bd49225f0760c9a7e",
+      "signingCertSha256": "77bd7b32711738bf4837f604e00b8c137675755cbe199611e8612b410d68841f",
+      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/torrentatlas-v0.1.0/TorrentAtlas-v0.1.0.apk",
+      "releaseId": "rel_torrentatlas_1",
+      "releaseNotes": "Adds TorrentAtlas as a legal torrent utility for user-provided magnet links, torrent files, Internet Archive search, official Linux torrent sources, downloads, file browsing, and safe ZIP extraction. It intentionally avoids piracy indexes.",
+      "publishedAt": "2026-06-11T21:00:00Z"
     }
   ]
 }
