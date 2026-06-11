@@ -6,15 +6,15 @@
   "publisherName": "Lenomila",
   "category": "Catalog",
   "channel": "stable",
-  "versionName": "0.3.9",
-  "versionCode": 39,
+  "versionName": "0.3.10",
+  "versionCode": 40,
   "minSdk": 26,
   "targetSdk": 36,
-  "sizeBytes": 12542154,
-  "sha256": "1de46319338a36fe53f0061b1f201d39c6e0c63f713e4ed61447607dbcae6c36",
+  "sizeBytes": 12543160,
+  "sha256": "0e6016742a8dc9442e9b554807c4459fbb0af031482387abf0e20c940c25c917",
   "signingCertSha256": "e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd",
-  "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.9/LenomilaShelf-v0.3.9.apk",
-  "releaseId": "rel_lenomilashelf_39",
-  "releaseNotes": "Installed-state detection now includes Android package visibility for World Cup 2026 and Visit Video Logger, so Android 11+ can report those apps as installed/current instead of hiding them from PackageManager. The release build now refuses catalog packages missing from <queries>.",
-  "publishedAt": "2026-06-11T18:52:53Z"
+  "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.10/LenomilaShelf-v0.3.10.apk",
+  "releaseId": "rel_lenomilashelf_40",
+  "releaseNotes": "Adds TorrentAtlas to the signed catalog and Android package visibility queries so the store can list the app and recognize it after install.",
+  "publishedAt": "2026-06-11T21:05:16Z"
 }
