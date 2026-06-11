@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T18:33:20Z",
+  "generatedAt": "2026-06-11T18:52:53Z",
   "apps": [
     {
       "schemaVersion": 1,
@@ -10,17 +10,17 @@
       "publisherName": "Lenomila",
       "category": "Catalog",
       "channel": "stable",
-      "versionName": "0.3.8",
-      "versionCode": 38,
+      "versionName": "0.3.9",
+      "versionCode": 39,
       "minSdk": 26,
       "targetSdk": 36,
-      "sizeBytes": 12542358,
-      "sha256": "d2a4a88fe356c657f51015a1e2ff85c29ed15957847e2acdb309fbc1b7ffa141",
+      "sizeBytes": 12542154,
+      "sha256": "1de46319338a36fe53f0061b1f201d39c6e0c63f713e4ed61447607dbcae6c36",
       "signingCertSha256": "e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd",
-      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.8/LenomilaShelf-v0.3.8.apk",
-      "releaseId": "rel_lenomilashelf_38",
-      "releaseNotes": "Catalog refresh now prefers GitHub Contents API and raw GitHub before jsDelivr, adds runtime ?time=<epochSeconds> cache-busting to GitHub index/signature/app/release fetches, and still verifies signed catalog bytes before trusting metadata. Installer behavior and permissions are unchanged from v0.2.7/v0.3.7.",
-      "publishedAt": "2026-06-11T18:33:20Z"
+      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.9/LenomilaShelf-v0.3.9.apk",
+      "releaseId": "rel_lenomilashelf_39",
+      "releaseNotes": "Installed-state detection now includes Android package visibility for World Cup 2026 and Visit Video Logger, so Android 11+ can report those apps as installed/current instead of hiding them from PackageManager. The release build now refuses catalog packages missing from <queries>.",
+      "publishedAt": "2026-06-11T18:52:53Z"
     },
     {
       "schemaVersion": 1,
