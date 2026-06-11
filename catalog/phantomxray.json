@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "appRole": "managed",
+  "packageName": "com.lenomila.phantomxray",
+  "name": "PhantomXRay",
+  "publisherName": "Lenomila",
+  "category": "Entertainment",
+  "channel": "stable",
+  "versionName": "0.1.2",
+  "versionCode": 3,
+  "minSdk": 26,
+  "targetSdk": 36,
+  "sizeBytes": 48497249,
+  "sha256": "4d0a8d0897a7e2e6738b2b053bce820016ca48b99108fcfc57c320de4f2370ad",
+  "signingCertSha256": "1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6",
+  "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/phantomxray-v0.1.2/PhantomXRay-v0.1.2.apk",
+  "releaseId": "rel_phantomxray_3",
+  "releaseNotes": "Updates PhantomXRay with a more biological skeleton overlay: skull, clavicles, ribs, pelvis, joint capsules, and paired limb bones read less like prop bones over the camera.",
+  "publishedAt": "2026-06-11T10:17:23Z"
+}
