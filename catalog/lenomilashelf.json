@@ -6,15 +6,15 @@
   "publisherName": "Lenomila",
   "category": "Catalog",
   "channel": "stable",
-  "versionName": "0.3.6",
-  "versionCode": 36,
+  "versionName": "0.3.7",
+  "versionCode": 37,
   "minSdk": 26,
   "targetSdk": 36,
-  "sizeBytes": 12541296,
-  "sha256": "ed6e3e8d9ce337c7003fdf2aa2d993caacc02d8f9f23966eac4fa575d89983a6",
+  "sizeBytes": 12541336,
+  "sha256": "54c5ac4a21bda9cb54b6e3996d7ebc48e1b86174172a16829be1dbcf24ee3095",
   "signingCertSha256": "e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd",
-  "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.6/LenomilaShelf-v0.3.6.apk",
-  "releaseId": "rel_lenomilashelf_36",
-  "releaseNotes": "Supersedes v0.2.5/v0.3.5. Restores NovaStore v0.1.4-style app install/update capability with REQUEST_INSTALL_PACKAGES while keeping the modern release-signed, non-debuggable store identity. Keeps ACTION_VIEW + APK MIME + FileProvider + explicit installer target + ClipData handoff, SHA-256/size verification, no boot or notification permission, no broad package query, and no install-session API. Uses jsDelivr GitHub-backed signed catalog URLs to avoid GitHub Contents API 403 failures and raw GitHub index/signature cache mismatch.",
-  "publishedAt": "2026-06-11T13:10:00Z"
+  "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.7/LenomilaShelf-v0.3.7.apk",
+  "releaseId": "rel_lenomilashelf_37",
+  "releaseNotes": "Final hardened restore of NovaStore v0.1.4-style app installs/updates. Adds REQUEST_INSTALL_PACKAGES while staying release-signed and non-debuggable, with no boot or notification permission, no broad package query, and no install-session API. Keeps ACTION_VIEW + APK MIME + FileProvider + explicit installer target + ClipData handoff. Uses jsDelivr signed catalog URLs first, then falls back to GitHub Contents API and raw GitHub if the CDN is stale or unavailable; stale signed self-catalogs are skipped.",
+  "publishedAt": "2026-06-11T13:15:00Z"
 }
