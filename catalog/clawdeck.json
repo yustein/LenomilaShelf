@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "appRole": "managed",
+  "packageName": "com.clawdeck",
+  "name": "ClawDeck",
+  "publisherName": "Lenomila",
+  "category": "Tools",
+  "channel": "stable",
+  "versionName": "1.0.26",
+  "versionCode": 27,
+  "minSdk": 23,
+  "targetSdk": 35,
+  "sizeBytes": 309071,
+  "sha256": "07c0a3135d92649829525613300cbea2b1271eedce8881cce7d51958923c0a43",
+  "signingCertSha256": "1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6",
+  "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/clawdeck-v1.0.26/ClawDeck-v1.0.26.apk",
+  "releaseId": "rel_clawdeck_27",
+  "releaseNotes": "Keeps live OpenClaw chat sessions running in the background with a foreground chat service and partial wake lock.",
+  "publishedAt": "2026-06-09T19:45:19Z"
+}
