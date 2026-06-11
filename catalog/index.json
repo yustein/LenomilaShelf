@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T10:19:25Z",
+  "generatedAt": "2026-06-11T10:49:02Z",
   "apps": [
     {
       "schemaVersion": 1,
@@ -10,17 +10,17 @@
       "publisherName": "Lenomila",
       "category": "Catalog",
       "channel": "stable",
-      "versionName": "0.3.0",
-      "versionCode": 30,
+      "versionName": "0.3.1",
+      "versionCode": 31,
       "minSdk": 26,
       "targetSdk": 36,
-      "sizeBytes": 12510961,
-      "sha256": "2a63d884946304300c3c7294815ad88553e0f2bc4ecf8a02da1a9e38dcbc520a",
+      "sizeBytes": 12528453,
+      "sha256": "ec00105e4801d03d4d36dbe44e2689a65a94a9d3f05df2b9d6a67b75d07dc1f1",
       "signingCertSha256": "e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd",
-      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.0/LenomilaShelf-v0.3.0.apk",
-      "releaseId": "rel_lenomilashelf_30",
-      "releaseNotes": "Fresh catalog-only identity: new app name, package id, launcher icon, release signing key, signed catalog verification, no package-install permission, no in-app APK fetcher, and installed-app Open buttons.",
-      "publishedAt": "2026-06-11T10:19:25Z"
+      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.1/LenomilaShelf-v0.3.1.apk",
+      "releaseId": "rel_lenomilashelf_31",
+      "releaseNotes": "Restores verified APK download, SHA-256 check, Android installer handoff without app-install permission, installed-app Open buttons, and three-times-daily update checks.",
+      "publishedAt": "2026-06-11T10:49:02Z"
     },
     {
       "schemaVersion": 1,
