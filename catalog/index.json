@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T09:44:33Z",
+  "generatedAt": "2026-06-12T10:02:14Z",
   "apps": [
     {
       "schemaVersion": 1,
@@ -10,18 +10,18 @@
       "publisherName": "Lenomila",
       "category": "Catalog",
       "channel": "stable",
-      "versionName": "0.3.12",
-      "versionCode": 42,
+      "versionName": "0.3.13",
+      "versionCode": 43,
       "minSdk": 26,
       "targetSdk": 36,
-      "sizeBytes": 12559760,
-      "sha256": "3e1869c171fa25ff13547809ac36709098bdd678d5151ebe89f6a1e4295edfaf",
+      "sizeBytes": 12565628,
+      "sha256": "d5b1a5f310fa84d083f8f0d9f0eb8a707ae0c1cc961c0278abcfa230a574c6c6",
       "signingCertSha256": "e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd",
-      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.12/LenomilaShelf-v0.3.12.apk",
-      "releaseId": "rel_lenomilashelf_42",
-      "releaseNotes": "Fixes store self-update detection for installed v0.3.10 clients by accepting both raw RSA detached catalog signatures and Base64 text signatures. The public catalog signature is Base64-compatible again so older clients can verify the catalog, see this update, and move onto the dual-format verifier.",
-      "publishedAt": "2026-06-12T09:26:16Z",
-      "updatedAt": "2026-06-12T09:26:16Z",
+      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.13/LenomilaShelf-v0.3.13.apk",
+      "releaseId": "rel_lenomilashelf_43",
+      "releaseNotes": "Keeps the shared store client aligned with NovaStore's legacy package compatibility guard. Modern clients ignore the old com.novastore.client bridge entry if it appears in the NovaStore catalog, avoiding duplicate or confusing store rows.",
+      "publishedAt": "2026-06-12T10:00:17Z",
+      "updatedAt": "2026-06-12T10:00:17Z",
       "description": "Lenomila Shelf is a companion private Android app catalog for the same signed app collection. It focuses on browsing, sharing, checking updates, viewing release details, and installing verified GitHub-hosted APKs through Android's normal installer flow."
     },
     {
