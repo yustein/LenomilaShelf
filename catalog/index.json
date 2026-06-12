@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T10:02:14Z",
+  "generatedAt": "2026-06-12T10:11:38Z",
   "apps": [
     {
       "schemaVersion": 1,
@@ -10,18 +10,18 @@
       "publisherName": "Lenomila",
       "category": "Catalog",
       "channel": "stable",
-      "versionName": "0.3.13",
-      "versionCode": 43,
+      "versionName": "0.3.14",
+      "versionCode": 44,
       "minSdk": 26,
       "targetSdk": 36,
-      "sizeBytes": 12565628,
-      "sha256": "d5b1a5f310fa84d083f8f0d9f0eb8a707ae0c1cc961c0278abcfa230a574c6c6",
+      "sizeBytes": 12565572,
+      "sha256": "625956609f8cd7052d69171699ebed7d6653b3a2a5f6fb1dc03a0896a81dfe5c",
       "signingCertSha256": "e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd",
-      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.13/LenomilaShelf-v0.3.13.apk",
-      "releaseId": "rel_lenomilashelf_43",
-      "releaseNotes": "Keeps the shared store client aligned with NovaStore's legacy package compatibility guard. Modern clients ignore the old com.novastore.client bridge entry if it appears in the NovaStore catalog, avoiding duplicate or confusing store rows.",
-      "publishedAt": "2026-06-12T10:00:17Z",
-      "updatedAt": "2026-06-12T10:00:17Z",
+      "downloadUrl": "https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.14/LenomilaShelf-v0.3.14.apk",
+      "releaseId": "rel_lenomilashelf_44",
+      "releaseNotes": "Completes the shared legacy-package catalog guard across signed indexes, per-app GitHub catalog files, release overlays, and merged results so modern clients do not show duplicate or confusing legacy NovaStore rows.",
+      "publishedAt": "2026-06-12T10:10:19Z",
+      "updatedAt": "2026-06-12T10:10:19Z",
       "description": "Lenomila Shelf is a companion private Android app catalog for the same signed app collection. It focuses on browsing, sharing, checking updates, viewing release details, and installing verified GitHub-hosted APKs through Android's normal installer flow."
     },
     {
