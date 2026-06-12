@@ -18,5 +18,5 @@
   "releaseNotes": "Fixes store self-update detection for installed v0.3.10 clients by accepting both raw RSA detached catalog signatures and Base64 text signatures. The public catalog signature is Base64-compatible again so older clients can verify the catalog, see this update, and move onto the dual-format verifier.",
   "publishedAt": "2026-06-12T09:26:16Z",
   "updatedAt": "2026-06-12T09:26:16Z",
-  "description": "Private Android app shelf for signed GitHub-hosted APK releases and managed app updates."
+  "description": "Lenomila Shelf is a companion private Android app catalog for the same signed app collection. It focuses on browsing, sharing, checking updates, viewing release details, and installing verified GitHub-hosted APKs through Android's normal installer flow."
 }
