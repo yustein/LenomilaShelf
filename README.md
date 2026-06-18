@@ -1,26 +1,13 @@
 # Lenomila Shelf Public Catalog
 
-This public repository hosts Lenomila Shelf catalog metadata and public APK release assets for Tony's companion Android app catalog.
+This public repository hosts Lenomila Shelf catalog metadata and public APK release assets for Tony's private Android app catalog.
 
 Clients fetch `catalog/index.json`, verify its detached RSA/SHA-256 signature, show pinned APK SHA-256/signing metadata, and install GitHub-hosted APK downloads only through Android user consent.
 
 ## Catalog Summary
 
-- Generated: `2026-06-17T07:40:20Z`
-- Apps: `25` total (`1` current store app, `0` legacy store updater, `24` managed apps)
-- Excluded: companion sample APKs, Windows packages, recovered duplicate projects, and AAB-only artifacts.
-
-## Lenomila Shelf App
-
-Lenomila Shelf is a companion private Android app catalog for the same signed app collection. It focuses on browsing, sharing, checking updates, viewing release details, choosing a persisted app language, and installing verified GitHub-hosted APKs through Android's normal installer flow.
-
-- Package: `com.lenomila.shelf`
-- Category: `Catalog`
-- Version: `0.3.16` / code `46`
-- Description: Lenomila Shelf is a companion private Android app catalog for the same signed app collection. It focuses on browsing, sharing, checking updates, viewing release details, choosing a persisted app language, and installing verified GitHub-hosted APKs through Android's normal installer flow.
-- Download: <https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.16/LenomilaShelf-v0.3.16.apk>
-- APK SHA-256: `b12c6bba9380d9332e0b6cf2d50cd2ebcfb1cdc7634842af18bb25db6586b88d`
-- Signing certificate SHA-256: `e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd`
+- Generated: `2026-06-18T09:40:31Z`
+- Apps: `27`
 
 ## Catalog Apps
 
@@ -84,6 +71,18 @@ Carpet Measure is an AR measurement prototype for estimating carpet and floor di
 - APK SHA-256: `0be6bff3f3eb412d40d03c5ff07946874b8d117581f575efd413b4de5e9fc338`
 - Signing certificate SHA-256: `1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6`
 
+### ClawChat
+
+ClawChat is an Android-first private messenger for no-phone-number chat. It creates a local cryptographic identity, pairs devices with invites, syncs encrypted message events through embedded Syncthing, supports attachments and voice messages, delivered/read receipts, local notifications, and keeps live calling disabled for stability.
+
+- Package: `com.lenomila.clawchat`
+- Category: `Communication`
+- Version: `0.2.7` / code `18`
+- Description: ClawChat is an Android-first private messenger for no-phone-number chat. It creates a local cryptographic identity, pairs devices with invites, syncs encrypted message events through embedded Syncthing, supports attachments and voice messages, delivered/read receipts, local notifications, and keeps live calling disabled for stability.
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/clawchat-v0.2.7/ClawChat-v0.2.7.apk>
+- APK SHA-256: `2a3222620c764f2c044667eda113c78b2891d2fe254668787e02542e86782ba3`
+- Signing certificate SHA-256: `93336087c5dad5b338268773963969acfaeda07a351062000c8754b4ac5e06cc`
+
 ### ClawDeck
 
 ClawDeck is an Android-first OpenClaw operations console. It keeps saved server targets, SSH command surfaces, safe command templates, local operator notes, chat with OpenClaw, background chat keepalive, logs, redaction, and a setup flow for managing Tony's own infrastructure from a phone.
@@ -132,6 +131,18 @@ Gateway Fieldbook is a field journal and training companion rebuilt from Tony's 
 - APK SHA-256: `29964a09beffeff9617b02da7479fe48a12dd65b700980d356fc76255618e813`
 - Signing certificate SHA-256: `1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6`
 
+### Lenomila Shelf
+
+Lenomila Shelf is a companion private Android app catalog for the same signed app collection. It uses signed catalog icon metadata, checks installed versions for catalog apps through Android launcher visibility without QUERY_ALL_PACKAGES, supports browsing/sharing/update checks/language choice, and installs verified GitHub-hosted APKs through Android.
+
+- Package: `com.lenomila.shelf`
+- Category: `Catalog`
+- Version: `0.3.17` / code `47`
+- Description: Lenomila Shelf is a companion private Android app catalog for the same signed app collection. It uses signed catalog icon metadata, checks installed versions for catalog apps through Android launcher visibility without QUERY_ALL_PACKAGES, supports browsing/sharing/update checks/language choice, and installs verified GitHub-hosted APKs through Android.
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.17/LenomilaShelf-v0.3.17.apk>
+- APK SHA-256: `10f9f49bdb56eaf5011444835ff410df2bf4eb748c689ba28ac83343a1475b1e`
+- Signing certificate SHA-256: `e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd`
+
 ### MuzoPlay
 
 MuzoPlay is a neutral IPTV/media player for user-supplied playlists. It imports M3U/M3U8 and XMLTV-style guide data, plays streams with Media3/ExoPlayer, supports favorites and search, and intentionally includes no bundled channels, subscriptions, provider credentials, or public stream lists.
@@ -155,6 +166,18 @@ PhantomXRay is an entertainment camera AR app that overlays a stylized skeleton 
 - Download: <https://github.com/yustein/LenomilaShelf/releases/download/phantomxray-v0.1.2/PhantomXRay-v0.1.2.apk>
 - APK SHA-256: `4d0a8d0897a7e2e6738b2b053bce820016ca48b99108fcfc57c320de4f2370ad`
 - Signing certificate SHA-256: `1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6`
+
+### Prism Launcher
+
+Prism Launcher is a privacy-first Android home launcher MVP with Flow and Grid home styles, LauncherApps-based app indexing, local universal app search, favorites, hidden apps, aliases, tags, theme controls, and local JSON backup/import. It works without sensitive permissions and avoids ads, trackers, network calls, notification access, Accessibility, and broad package queries.
+
+- Package: `com.lenomila.prismlauncher`
+- Category: `Tools`
+- Version: `0.1.0` / code `1`
+- Description: Prism Launcher is a privacy-first Android home launcher MVP with Flow and Grid home styles, LauncherApps-based app indexing, local universal app search, favorites, hidden apps, aliases, tags, theme controls, and local JSON backup/import. It works without sensitive permissions and avoids ads, trackers, network calls, notification access, Accessibility, and broad package queries.
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/prismlauncher-v0.1.0/PrismLauncher-v0.1.0.apk>
+- APK SHA-256: `72440061f1d1519cdf8f86b546274f1d7c4033c716338655a30528f1d0e7b9a0`
+- Signing certificate SHA-256: `c4aa92d9993a681e00b88e1298d782e84e94a95345a286bde6fee7a288e0033c`
 
 ### Quake Globe
 
@@ -204,18 +227,6 @@ Solar Flyover is an offline 3D solar system model built for practical accuracy. 
 - APK SHA-256: `fe42182dd304131463c54c50b047eb1b2a6901dd002445e5856b1ce3a72bc4c9`
 - Signing certificate SHA-256: `000c29c806e7c126947e4289a3ca7c4e6a3331f883f22d819ff544a43a6199e0`
 
-### SpeedCockpit
-
-SpeedCockpit is a driving cockpit with GPS speed, map context, speed-limit focused display, warning tones, and multiple map/cockpit modes. It is built for glanceable travel use with reduced map flicker and stricter speed-limit presentation.
-
-- Package: `com.lenomila.speedcockpit`
-- Category: `Navigation`
-- Version: `0.1.13` / code `14`
-- Description: SpeedCockpit is a driving cockpit with GPS speed, map context, speed-limit focused display, warning tones, and multiple map/cockpit modes. It is built for glanceable travel use with reduced map flicker and stricter speed-limit presentation.
-- Download: <https://github.com/yustein/LenomilaShelf/releases/download/speedcockpit-v0.1.13/SpeedCockpit-v0.1.13.apk>
-- APK SHA-256: `33368b1bbb81b58b514b40e89d8f0eb39334d2b5605898e807958bebbd0d0d0e`
-- Signing certificate SHA-256: `1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6`
-
 ### Speed Test Lab
 
 Speed Test Lab measures network latency, jitter, download speed, upload speed, active Wi-Fi/mobile transport details, public IP/provider metadata when reachable, and local test history. It uses public endpoints and presents results for comparing network quality over time.
@@ -226,6 +237,18 @@ Speed Test Lab measures network latency, jitter, download speed, upload speed, a
 - Description: Speed Test Lab measures network latency, jitter, download speed, upload speed, active Wi-Fi/mobile transport details, public IP/provider metadata when reachable, and local test history. It uses public endpoints and presents results for comparing network quality over time.
 - Download: <https://github.com/yustein/LenomilaShelf/releases/download/speedtestlab-v0.1.5/SpeedTestLab-v0.1.5.apk>
 - APK SHA-256: `d7ec76ae5b07dad6686939f392692189695cf55a701e14a7a8e8c200a678b7ba`
+- Signing certificate SHA-256: `1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6`
+
+### SpeedCockpit
+
+SpeedCockpit is a driving cockpit with GPS speed, map context, speed-limit focused display, warning tones, and multiple map/cockpit modes. It is built for glanceable travel use with reduced map flicker and stricter speed-limit presentation.
+
+- Package: `com.lenomila.speedcockpit`
+- Category: `Navigation`
+- Version: `0.1.13` / code `14`
+- Description: SpeedCockpit is a driving cockpit with GPS speed, map context, speed-limit focused display, warning tones, and multiple map/cockpit modes. It is built for glanceable travel use with reduced map flicker and stricter speed-limit presentation.
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/speedcockpit-v0.1.13/SpeedCockpit-v0.1.13.apk>
+- APK SHA-256: `33368b1bbb81b58b514b40e89d8f0eb39334d2b5605898e807958bebbd0d0d0e`
 - Signing certificate SHA-256: `1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6`
 
 ### TorrentAtlas
