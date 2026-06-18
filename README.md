@@ -6,8 +6,8 @@ Clients fetch `catalog/index.json`, verify its detached RSA/SHA-256 signature, s
 
 ## Catalog Summary
 
-- Generated: `2026-06-18T11:08:28Z`
-- Apps: `27`
+- Generated: `2026-06-18T11:53:26Z`
+- Apps: `28`
 
 ## Catalog Apps
 
@@ -131,6 +131,18 @@ Gateway Fieldbook is a field journal and training companion rebuilt from Tony's 
 - APK SHA-256: `29964a09beffeff9617b02da7479fe48a12dd65b700980d356fc76255618e813`
 - Signing certificate SHA-256: `1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6`
 
+### Lenomila PDF
+
+Lenomila PDF is a native Android PDF viewer for local documents. It opens PDFs from Android file/document providers, can be chosen as the default PDF viewer through Android's Open with / Always flow, renders pages on device, offers zoom controls, saves a copy through the system document picker, and shares the current PDF through Android share targets without requiring broad storage access.
+
+- Package: `com.lenomila.pdfviewer`
+- Category: `Tools`
+- Version: `0.1.0` / code `1`
+- Description: Lenomila PDF is a native Android PDF viewer for local documents. It opens PDFs from Android file/document providers, can be chosen as the default PDF viewer through Android's Open with / Always flow, renders pages on device, offers zoom controls, saves a copy through the system document picker, and shares the current PDF through Android share targets without requiring broad storage access.
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/lenomilapdf-v0.1.0/LenomilaPDF-v0.1.0.apk>
+- APK SHA-256: `ba14993cad8509cd2dae58691f55e7bb1b1df9fc9bf35a869f52663bcc559c8d`
+- Signing certificate SHA-256: `4eb5935ed24028ea6e1340b2bb7d6ec4e73fd4804d76ca2f0b3a013198868bab`
+
 ### Lenomila Shelf
 
 Lenomila Shelf is a companion private Android app catalog for the same signed app collection. It uses signed catalog icon metadata, checks installed versions for catalog apps through Android launcher visibility without QUERY_ALL_PACKAGES, supports browsing/sharing/update checks/language choice, and installs verified GitHub-hosted APKs through Android.
@@ -169,7 +181,7 @@ PhantomXRay is an entertainment camera AR app that overlays a stylized skeleton 
 
 ### Prism Launcher
 
-.Prism Launcher is a privacy-first Android home launcher with Flow, Grid, Board, and Command home styles, LauncherApps-based profile-aware app and shortcut indexing, Room-backed local app/widget/customization state, DataStore settings, cached icons, fuzzy search, favorites, hidden apps, aliases, tags, folders, local smart categories, gesture shortcuts, Android widget hosting, theme controls, profile filters, and local JSON backup/import. It avoids ads, trackers, network calls, Accessibility, sensitive permissions, installer permissions, and broad package queries.
+Prism Launcher is a privacy-first Android home launcher with Flow, Grid, Board, and Command home styles, LauncherApps-based profile-aware app and shortcut indexing, Room-backed local app/widget/customization state, DataStore settings, cached icons, fuzzy search, favorites, hidden apps, aliases, tags, folders, local smart categories, gesture shortcuts, Android widget hosting, theme controls, profile filters, and local JSON backup/import. It avoids ads, trackers, network calls, Accessibility, sensitive permissions, installer permissions, and broad package queries.
 
 - Package: `com.lenomila.prismlauncher`
 - Category: `Tools`
@@ -178,7 +190,6 @@ PhantomXRay is an entertainment camera AR app that overlays a stylized skeleton 
 - Download: <https://github.com/yustein/LenomilaShelf/releases/download/prismlauncher-v0.2.0/PrismLauncher-v0.2.0.apk>
 - APK SHA-256: `e264ce657d765eda494913d5597866c04521ff1a1738c54dbd84f6c471e97576`
 - Signing certificate SHA-256: `c4aa92d9993a681e00b88e1298d782e84e94a95345a286bde6fee7a288e0033c`
-
 
 ### Quake Globe
 
@@ -335,8 +346,3 @@ World Cup 2026 is a tournament companion for fixtures, kickoff times, teams, ven
 - Download: <https://github.com/yustein/LenomilaShelf/releases/download/worldcup2026-v0.1.4/WorldCup2026-v0.1.4.apk>
 - APK SHA-256: `482b66a79b72649d8a23a6b678fd9c55b26f0ff4dcd1aedfa922968567401383`
 - Signing certificate SHA-256: `574ab287ee443e3c6474aaf8372bce70fc33712dd063bc73198c38139f255243`
-
-## Signature
-
-- Public key: `catalog/index-public-key.der.b64`
-- Detached signature: `catalog/index.json.sig`
