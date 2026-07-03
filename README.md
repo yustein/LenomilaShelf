@@ -6,8 +6,8 @@ Clients fetch `catalog/index.json`, verify its detached RSA/SHA-256 signature, s
 
 ## Catalog Summary
 
-- Generated: `2026-07-02T19:41:37Z`
-- Apps: `42`
+- Generated: `2026-07-03T12:47:51Z`
+- Apps: `43`
 
 ## Catalog Apps
 
@@ -118,6 +118,18 @@ ClawChat is an Android-first private messenger for no-phone-number chat. It crea
 - Download: <https://github.com/yustein/LenomilaShelf/releases/download/clawchat-v0.2.10/ClawChat-v0.2.10.apk>
 - APK SHA-256: `f420f1870bae3bddc1ad45680f7a62fc5eef4d397274edc18bb3298a84471871`
 - Signing certificate SHA-256: `93336087c5dad5b338268773963969acfaeda07a351062000c8754b4ac5e06cc`
+
+### Clawcycle Havoc
+
+Clawcycle Havoc is a funny fullscreen Android arcade game about a misfit cat crew tearing through city districts on chrome cruiser motorcycles. It combines touch steering, BOOST/HAVOC/WHEELIE controls, four themed districts, fish/yarn/ramp/wrench pickups, cones and smoke hazards, gang followers, combo scoring, generated bitmap artwork, and Tony-provided cat voice sound effects. It is a standalone no-network game and uses generic cruiser styling with no motorcycle-brand logos.
+
+- Package: `com.lenomila.clawcycle`
+- Category: `Games`
+- Version: `0.1.0` / code `1`
+- Description: Clawcycle Havoc is a funny fullscreen Android arcade game about a misfit cat crew tearing through city districts on chrome cruiser motorcycles. It combines touch steering, BOOST/HAVOC/WHEELIE controls, four themed districts, fish/yarn/ramp/wrench pickups, cones and smoke hazards, gang followers, combo scoring, generated bitmap artwork, and Tony-provided cat voice sound effects. It is a standalone no-network game and uses generic cruiser styling with no motorcycle-brand logos.
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/clawcyclehavoc-v0.1.0/ClawcycleHavoc-v0.1.0.apk>
+- APK SHA-256: `d5e5b297f71bd677953b822c6812513b2e5a92fb909bc29733a813bc99d09153`
+- Signing certificate SHA-256: `de5079de6299f6475a196da106fa43c2c166934d7d78da01bc7562cfe06e8082`
 
 ### ClawDeck
 
