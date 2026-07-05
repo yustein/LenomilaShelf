@@ -6,8 +6,8 @@ Clients fetch `catalog/index.json`, verify its detached RSA/SHA-256 signature, s
 
 ## Catalog Summary
 
-- Generated: `2026-07-05T09:04:31Z`
-- Apps: `45`
+- Generated: `2026-07-05T13:32:53Z`
+- Apps: `46`
 
 ## Catalog Apps
 
@@ -497,12 +497,23 @@ WaveAtlas Radio is a global online radio player for discovering stations by genr
 
 - Package: `com.lenomila.waveatlasradio`
 - Category: `Music`
-- Version: `0.1.2` / code `3`
+- Version: `0.1.4` / code `5`
 - Description: WaveAtlas Radio is a global online radio player for discovering stations by genre, country, or search using the public Radio Browser directory. It plays live streams through Android Media3 foreground playback, shows station and song metadata when streams publish ICY details, keeps favorites locally, saves downloaded station data in an on-device SQLite cache for fast startup, opens station websites in-app, and requires no account, tracking profile, private backend, central server, or bundled paid stream provider.
-- Download: <https://github.com/yustein/LenomilaShelf/releases/download/waveatlasradio-v0.1.2/WaveAtlasRadio-v0.1.2.apk>
-- APK SHA-256: `885883d5ba9609b11b6cdf57c3ea95b4e9be8f49c76bfb5867e97621e918daec`
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/waveatlasradio-v0.1.4/WaveAtlasRadio-v0.1.4.apk>
+- APK SHA-256: `af605221c1321d6d4c76e2c162db8dee797f75f5ad17041d4eb0465d8ade0a3e`
 - Signing certificate SHA-256: `b9f3fa6dcf24d71b4b6acbd3bde211a77d1fdeec6d89af69bdb555d7676cd1d9`
 
+### WaveAtlas TV
+
+WaveAtlas TV is a worldwide internet TV viewer with a bundled public station/feed catalog. It lets you search by station, country, language, and category; save favorites; watch streams through Android Media3 with VLC fallback; choose alternate streams, audio tracks, and video tracks; use Picture-in-Picture; switch VLC hardware/software decoding; and control fullscreen with Exit plus Zoom, Stretch, and Fit aspect modes. Adult/NSFW-capable records are included but hidden unless the explicit Adult toggle is enabled. Public streams can be offline, temporary, or geo-blocked.
+
+- Package: `com.lenomila.waveatlastv`
+- Category: `Media`
+- Version: `0.1.3` / code `4`
+- Description: WaveAtlas TV is a worldwide internet TV viewer with a bundled public station/feed catalog. It lets you search by station, country, language, and category; save favorites; watch streams through Android Media3 with VLC fallback; choose alternate streams, audio tracks, and video tracks; use Picture-in-Picture; switch VLC hardware/software decoding; and control fullscreen with Exit plus Zoom, Stretch, and Fit aspect modes. Adult/NSFW-capable records are included but hidden unless the explicit Adult toggle is enabled. Public streams can be offline, temporary, or geo-blocked.
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/waveatlastv-v0.1.3/WaveAtlasTV-v0.1.3.apk>
+- APK SHA-256: `d6f8df8e07ad08dd0849551b83608fd538d5f134fd19fc36410adeb367f65d00`
+- Signing certificate SHA-256: `5ac5ea6129d9edeac1c828900bd935a8aa1b696c025d0b6f55d0f5ecf580a99e`
 
 ### WaveVid
 
