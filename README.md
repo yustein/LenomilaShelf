@@ -6,7 +6,7 @@ Clients fetch `catalog/index.json`, verify its detached RSA/SHA-256 signature, s
 
 ## Catalog Summary
 
-- Generated: `2026-07-26T15:43:16Z`
+- Generated: `2026-07-26T15:56:56Z`
 - Apps: `47`
 
 ## Catalog Apps
@@ -107,30 +107,6 @@ CatWorldly is a native companion app for the CatWorldly website. It shows daily 
 - APK SHA-256: `c61ae8ca4a58a48d9db159832266117a6550a0787e88cbb9cad2930e09703ee2`
 - Signing certificate SHA-256: `16f9c6618f42489bd1ef5388389b6db9662c1536a0e40096ecec806dc781676b`
 
-### ClawChat
-
-ClawChat is an Android-first private messenger for no-phone-number chat. It creates a local cryptographic identity, pairs devices with invites, syncs encrypted message events through embedded Syncthing, supports attachments and voice messages, delivered/read receipts, local notifications, opt-in background sync, network-aware pause/resume, and a background check frequency control for battery savings.
-
-- Package: `com.lenomila.clawchat`
-- Category: `Communication`
-- Version: `0.2.10` / code `21`
-- Description: ClawChat is an Android-first private messenger for no-phone-number chat. It creates a local cryptographic identity, pairs devices with invites, syncs encrypted message events through embedded Syncthing, supports attachments and voice messages, delivered/read receipts, local notifications, opt-in background sync, network-aware pause/resume, and a background check frequency control for battery savings.
-- Download: <https://github.com/yustein/LenomilaShelf/releases/download/clawchat-v0.2.10/ClawChat-v0.2.10.apk>
-- APK SHA-256: `f420f1870bae3bddc1ad45680f7a62fc5eef4d397274edc18bb3298a84471871`
-- Signing certificate SHA-256: `93336087c5dad5b338268773963969acfaeda07a351062000c8754b4ac5e06cc`
-
-### ClawDeck
-
-ClawDeck is an Android-first OpenClaw operations console. It keeps saved server targets, SSH command surfaces, safe command templates, local operator notes, chat with OpenClaw, background chat keepalive, logs, redaction, and a setup flow for managing Tony's own infrastructure from a phone.
-
-- Package: `com.clawdeck`
-- Category: `Tools`
-- Version: `1.0.26` / code `27`
-- Description: ClawDeck is an Android-first OpenClaw operations console. It keeps saved server targets, SSH command surfaces, safe command templates, local operator notes, chat with OpenClaw, background chat keepalive, logs, redaction, and a setup flow for managing Tony's own infrastructure from a phone.
-- Download: <https://github.com/yustein/LenomilaShelf/releases/download/clawdeck-v1.0.26/ClawDeck-v1.0.26.apk>
-- APK SHA-256: `07c0a3135d92649829525613300cbea2b1271eedce8881cce7d51958923c0a43`
-- Signing certificate SHA-256: `1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6`
-
 ### Clawboard
 
 Clawboard is a custom Android keyboard and companion manager for working with AI systems and remote hosts. It provides AI prompt snippets, Markdown/code helper keys, local notes and tasks, user-tunable keyboard colors, terminal shortcut keys, encrypted saved SSH passwords, and an SSH command terminal in the manager app.
@@ -143,6 +119,18 @@ Clawboard is a custom Android keyboard and companion manager for working with AI
 - APK SHA-256: `936ff6d67d611e0fb9a20cb881f74f40c7f5d56265c6b620962199f7749a5f42`
 - Signing certificate SHA-256: `5f907c5d651b10150f4100fc0c7aa59ca79a9d465f76ae5216a2512855521f31`
 
+### ClawChat
+
+ClawChat is an Android-first private messenger for no-phone-number chat. It creates a local cryptographic identity, pairs devices with invites, syncs encrypted message events through embedded Syncthing, supports attachments and voice messages, delivered/read receipts, local notifications, opt-in background sync, network-aware pause/resume, and a background check frequency control for battery savings.
+
+- Package: `com.lenomila.clawchat`
+- Category: `Communication`
+- Version: `0.2.10` / code `21`
+- Description: ClawChat is an Android-first private messenger for no-phone-number chat. It creates a local cryptographic identity, pairs devices with invites, syncs encrypted message events through embedded Syncthing, supports attachments and voice messages, delivered/read receipts, local notifications, opt-in background sync, network-aware pause/resume, and a background check frequency control for battery savings.
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/clawchat-v0.2.10/ClawChat-v0.2.10.apk>
+- APK SHA-256: `f420f1870bae3bddc1ad45680f7a62fc5eef4d397274edc18bb3298a84471871`
+- Signing certificate SHA-256: `93336087c5dad5b338268773963969acfaeda07a351062000c8754b4ac5e06cc`
+
 ### Clawcycle Havoc
 
 Clawcycle Havoc is a funny fullscreen Android arcade game about a misfit cat crew tearing through eight Istanbul night districts on chrome cruiser motorcycles. It combines touch steering, larger readable level and gang-rider selection controls, selectable Easy/Normal/Hard difficulty, a 30-minute 128 kbps baked background music bed with approved source-level crossmixed transitions and rare 5-second engine handoff at the loop point, a persisted MUSIC ON/OFF toggle, a visible 9-life survival system, a selectable five-cat gang leader, large PAUSE/EXIT controls, BOOST/HAVOC/WHEELIE actions, audible 3-2-1-MEOW countdown cues, distance-based speed ramping, a HOW TO PLAY guide, fish/yarn/ramp/wrench pickups, cones and smoke hazards, combo scoring, generated bitmap artwork, Tony-provided cat voices, and claw-scratch/paw HAVOC effects. It is a standalone no-network game and uses generic cruiser styling with no motorcycle-brand logos.
@@ -154,6 +142,18 @@ Clawcycle Havoc is a funny fullscreen Android arcade game about a misfit cat cre
 - Download: <https://github.com/yustein/LenomilaShelf/releases/download/clawcyclehavoc-v0.1.12/ClawcycleHavoc-v0.1.12.apk>
 - APK SHA-256: `cef5b35cee0a873a9c2469f43edc32ebfe856dfce2724dff51098ca99503c9ac`
 - Signing certificate SHA-256: `de5079de6299f6475a196da106fa43c2c166934d7d78da01bc7562cfe06e8082`
+
+### ClawDeck
+
+ClawDeck is an Android-first OpenClaw operations console. It keeps saved server targets, SSH command surfaces, safe command templates, local operator notes, chat with OpenClaw, background chat keepalive, logs, redaction, and a setup flow for managing Tony's own infrastructure from a phone.
+
+- Package: `com.clawdeck`
+- Category: `Tools`
+- Version: `1.0.26` / code `27`
+- Description: ClawDeck is an Android-first OpenClaw operations console. It keeps saved server targets, SSH command surfaces, safe command templates, local operator notes, chat with OpenClaw, background chat keepalive, logs, redaction, and a setup flow for managing Tony's own infrastructure from a phone.
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/clawdeck-v1.0.26/ClawDeck-v1.0.26.apk>
+- APK SHA-256: `07c0a3135d92649829525613300cbea2b1271eedce8881cce7d51958923c0a43`
+- Signing certificate SHA-256: `1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6`
 
 ### CleanBass EQ
 
@@ -203,18 +203,6 @@ File Atlas is a phone file manager for browsing local storage with a practical d
 - APK SHA-256: `004308b0c70009fe44d51fea5e67226bf683d8bb546246af374eef39fb0a4b4a`
 - Signing certificate SHA-256: `1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6`
 
-### GPU Video Combiner
-
-GPU Video Combiner is a local Android video tool for joining selected clips into one MP4. It lets you order a clip queue, choose output size, fit mode, codec, and audio behavior, then export through Android hardware encoding and save the result to Movies/GPUVideoCombiner.
-
-- Package: `com.lenomila.gpuvideocombiner`
-- Category: `Video`
-- Version: `0.1.0` / code `1`
-- Description: GPU Video Combiner is a local Android video tool for joining selected clips into one MP4. It lets you order a clip queue, choose output size, fit mode, codec, and audio behavior, then export through Android hardware encoding and save the result to Movies/GPUVideoCombiner.
-- Download: <https://github.com/yustein/LenomilaShelf/releases/download/gpuvideocombiner-v0.1.0/GPUVideoCombiner-v0.1.0.apk>
-- APK SHA-256: `2db16b4db63e4c710c1712d97883cf7c0bb53360a27e548c68e1657f31959dc3`
-- Signing certificate SHA-256: `ed41e359ad6ae9bb4b086343ab72d3e45801998f832547c357bd1b92f8961740`
-
 ### Gateway Fieldbook
 
 Gateway Fieldbook is a field journal and training companion rebuilt from Tony's recovered APK. It includes focus timers, guided sessions, tone/audio exercises, profile and log tools, remote-viewing style practice targets, and structured notes for recording observations during sessions.
@@ -226,6 +214,18 @@ Gateway Fieldbook is a field journal and training companion rebuilt from Tony's 
 - Download: <https://github.com/yustein/LenomilaShelf/releases/download/gatewayfieldbook-v1.3.0/GatewayFieldbook-v1.3.0.apk>
 - APK SHA-256: `29964a09beffeff9617b02da7479fe48a12dd65b700980d356fc76255618e813`
 - Signing certificate SHA-256: `1320f7199695b914b2b58149d34b5026671b856791bf8fe3d0ec5d0cb70bcec6`
+
+### GPU Video Combiner
+
+GPU Video Combiner is a local Android video tool for joining selected clips into one MP4. It lets you order a clip queue, choose output size, fit mode, codec, and audio behavior, then export through Android hardware encoding and save the result to Movies/GPUVideoCombiner.
+
+- Package: `com.lenomila.gpuvideocombiner`
+- Category: `Video`
+- Version: `0.1.0` / code `1`
+- Description: GPU Video Combiner is a local Android video tool for joining selected clips into one MP4. It lets you order a clip queue, choose output size, fit mode, codec, and audio behavior, then export through Android hardware encoding and save the result to Movies/GPUVideoCombiner.
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/gpuvideocombiner-v0.1.0/GPUVideoCombiner-v0.1.0.apk>
+- APK SHA-256: `2db16b4db63e4c710c1712d97883cf7c0bb53360a27e548c68e1657f31959dc3`
+- Signing certificate SHA-256: `ed41e359ad6ae9bb4b086343ab72d3e45801998f832547c357bd1b92f8961740`
 
 ### I Ching Journal
 
@@ -257,10 +257,10 @@ Lenomila Shelf is a companion private Android app catalog for the same signed ap
 
 - Package: `com.lenomila.shelf`
 - Category: `Catalog`
-- Version: `0.3.17` / code `47`
+- Version: `0.3.18` / code `48`
 - Description: Lenomila Shelf is a companion private Android app catalog for the same signed app collection. It uses signed catalog icon metadata, checks installed versions for catalog apps through Android launcher visibility without QUERY_ALL_PACKAGES, supports browsing/sharing/update checks/language choice, and installs verified GitHub-hosted APKs through Android.
-- Download: <https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.17/LenomilaShelf-v0.3.17.apk>
-- APK SHA-256: `10f9f49bdb56eaf5011444835ff410df2bf4eb748c689ba28ac83343a1475b1e`
+- Download: <https://github.com/yustein/LenomilaShelf/releases/download/lenomilashelf-v0.3.18/LenomilaShelf-v0.3.18.apk>
+- APK SHA-256: `c189f5eae734afdaf6be9d1a209b7d26559c2f8101b8d27d933f45a04d97973f`
 - Signing certificate SHA-256: `e095b05ac892e4c8356cc14e9030e7b2380fdabe9e2fa5bba1be56a4ffeb4fbd`
 
 ### Lenomila Upscaler
